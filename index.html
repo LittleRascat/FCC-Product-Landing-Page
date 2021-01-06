@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<header id="header">
+  <img id="header-img" src="https://base.imgix.net/files/base/ebm/mhlnews/image/2019/03/mhlnews_2686_basicspallets.png?auto=format&fit=crop&h=432&w=768" alt="Product showcase video.">
+  <div id="company-name">
+    <p class="company-name" id="r">Reclaimed</p>
+    <p class="company-name" id="p">Pallet</p>
+    <p class="company-name" id="f">Furniture</p>
+  </div>
+  <nav id="nav-bar">
+    <a class="nav-link" href="#about-label">About Us</a>
+    <a class="nav-link" href="#showcase-label">Product Showcase</a>
+    <a class="nav-link" href="#product-label">Products</a>
+    <a class="nav-link" href="#contact-label">Contact Us</a>
+  </nav>
+</header>
+
+<main>
+  <label class="light" id="about-label" for="about"><b>About Us:</b></label>
+  <div class="light" id="about">
+    <ui>
+      <li class="bullet">All furniture is made with the finest quality reclaimed pallet wood.</li>
+      <li class="bullet">We will custom build anything you want. If you can dream it we can build it.</li>
+      <li class="bullet">We also have several premade pieces of furniture ready to ship.</li>
+      <li class="bullet">Satisfaction guaranteed, or your money back.</li>
+    </ui>
+  </div>
+  
+  <label id="showcase-label" for="video"><b>Product Showcase:</b></label><br>
+  <div class="video-wrapper">
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/uamvy01i8WE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+  </div>
+  
+  <label class="light" id="product-label" for="product"><b>Products:</b></label>
+  <div class="light" id="product">
+    <div class="product-box" id="bench">
+      <p class="product-name">Bench</p>
+      <button class="buy-now">Buy Now</button>
+    </div>
+    <div class="product-box" id="nightstand">
+      <p class="product-name">Nightstand</p>
+      <button class="buy-now">Buy Now</button>
+    </div>
+    <div class="product-box" id="tvstand">
+      <p class="product-name">TV Stand</p>
+      <button class="buy-now">Buy Now</button>
+    </div>
+  </div>
+  
+  <label id="contact-label" for="contact"><b>Contact Us:</b></label>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input name="email" id="email" type="email" placeholder="Enter an email address" required>
+    <input id="submit" type="submit" value="Submit">
+  </form> 
+</main>
+
+<footer>
+  *This website was created for practice purposes and does not reflect a real company or real products!*
+</footer>
+
+</html>
