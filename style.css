@@ -83,6 +83,7 @@ label {
   text-align: center;
   font-size: 60px;
   padding: 10px;
+  font-family: Hanalei Fill;
 }
 
 .light {
@@ -98,12 +99,16 @@ label {
 
 .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  margin: -30px 0px 30px 0px;
-  height: 0;
-  overflow: hidden;
+  margin: -45px auto 20px;
   z-index: 0;
+  max-width: 980px;
+}
+
+.video-wrapper::before {
+  content: '';
+  display: block;
+  position: relative;
+  padding-bottom: 56.25%;
 }
 
 iframe {
@@ -213,7 +218,7 @@ footer {
   #header-img {height: 110px; width: 110px;}
   main {margin-top: 110px; font-size: 12px;}
   label {font-size: 20px;}
-  .video-wrapper {margin: -20px auto 20px auto}
+  .video-wrapper {margin: -20px auto 20px auto;}
   #product {flex-direction: column; align-items: center;}
   .product-box {margin: 10px;}
   input {font-size: 12px;}
